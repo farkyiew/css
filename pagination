@@ -1,0 +1,91 @@
+
+.mpagination{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    padding: 10px; 
+    background-color: rgb(63, 63, 31);
+}
+
+.contpage{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    padding: 4px; 
+    background-color: rgb(124, 122, 0);
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    /* padding: 2px;  */
+    /* margin:20px; */
+    /* background-color: rgb(8, 73, 5); */
+}
+
+.page-item{
+    padding: 10px; 
+    background-color: rgb(93, 101, 121);
+    border: rgb(179, 204, 169) 3px solid;
+}
+
+.page-link{
+    color: rgb(255, 255, 255);
+}
+
+.active{
+    background-color: rgb(73, 72, 72);
+    color: rgb(255, 255, 255);
+}
+
+.page-melintang{
+    display: flex;
+    flex-direction: row;
+    padding: 10px; 
+    margin: 5px;
+    padding: 20px; 
+    margin: 5px;
+    list-style-type: none; 
+}
+
+.pages{
+    padding: 10px; 
+    margin: 5px;
+    background-color: rgb(11, 57, 156);
+    padding: 20px; 
+    margin: 20px;
+}
+
+.mypg{
+    background-color: red;
+}
+
+.pagination-container {
+    display: flex;
+    column-gap: 10px;
+}
+
+.paginate-buttons {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(217, 217, 217);
+    color: black;
+}
+
+.paginate-buttons:hover {
+    background-color: #d8d8d8;
+}
+
+.active-page {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: white;
+}
+
+.active-page:hover {
+    background-color: #2988c8;
+}
